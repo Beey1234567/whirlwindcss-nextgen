@@ -60,7 +60,7 @@ This is to reduce bloat for example iflxb-cntnt doesnt have manual because the s
 
 Read the docs if available at: whirlwindcss-nextgen.surge.sh (Another way to find all the classes is to look in classes.json)
 
-Github repository: TODO
+Github repository: [whirlwindcss-nextgen repo](https://github.com/Beey1234567/whirlwindcss-nextgen/)
 
 ### Important notes
 
