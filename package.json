@@ -1,0 +1,41 @@
+{
+    "name": "whirlwindcss-nextgen",
+    "version": "1.0.1",
+    "private": false,
+    "description": "The newer whirlwind the next generation version",
+    "author": "beey12345",
+    "license": "MIT",
+    "keywords": [
+        "Css",
+        "framework",
+        "nextgen",
+        "whirlwind"
+    ],
+    "devDependencies": {
+        "rollup-plugin-postcss": "^4.0.2",
+        "vite": "^8.0.14"
+    },
+    "peerDependencies": {
+        "postcss": ">=8.0.0"
+    },
+    "optionalDependencies": {
+        "purgecss": ">=6.0.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "main": "./classes.css",
+    "style": "./classes.css",
+    "types": "./intellisense.d.ts",
+    "exports": {
+        ".": "./classes.css"
+    },
+    "files": [
+        "intellisense.d.ts",
+        "classes.css"
+    ],
+    "dependencies": {
+        "fs": "^0.0.1-security"
+    }
+}

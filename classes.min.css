@@ -1,0 +1,808 @@
+:root {
+    --xxxx-large: 64px;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.f-semibold {
+    font-weight: 600;
+}
+
+.f-bolder {
+    font-weight: bolder;
+}
+
+.f-lighter {
+    font-weight: lighter;
+}
+
+.flx {
+    display: flex;
+}
+
+.iflx {
+    display: inline-flex;
+}
+
+.flxclmn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flxclmn-manual {
+    flex-direction: column;
+}
+
+.r-flxclmn {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.r-flxclmn-manual {
+    flex-direction: column-reverse;
+}
+
+.flxrw {
+    display: flex;
+    flex-direction: row;
+}
+
+.flxrw-manual {
+    flex-direction: row;
+}
+
+.r-flxrw {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.r-flxrw-manual {
+    flex-direction: row-reverse;
+}
+
+.in-flx {
+    display: flex;
+    flex-direction: inherit;
+}
+
+.in-flx-manual {
+    flex-direction: inherit;
+}
+
+.init-flx {
+    display: flex;
+    flex-direction: initial;
+}
+
+.init-flx-manual {
+    flex-direction: initial;
+}
+
+.u-flx {
+    display: flex;
+    flex-direction: unset;
+}
+
+.u-flx-manual {
+    flex-direction: unset;
+}
+
+.iflxclmn {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.r-iflxclmn {
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+.iflxrw {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.r-iflxrw {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.in-iflx {
+    display: inline-flex;
+    flex-direction: inherit;
+}
+
+.init-iflx {
+    display: inline-flex;
+    flex-direction: initial;
+}
+
+.u-iflx {
+    display: inline-flex;
+    flex-direction: unset;
+}
+
+.flxw-nwp {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flxw-nwp-manual {
+    flex-wrap: nowrap;
+}
+
+.iflxw-nwp {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.ff-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ff-georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.f-capt {
+    font: caption;
+}
+
+.f-capt-sm {
+    font: small-caption;
+}
+
+.in-iis {
+    inset-inline-start: inherit;
+}
+
+.init-iis {
+    inset-inline-start: initial;
+}
+
+.u-iis {
+    inset-inline-start: unset;
+}
+
+.in-iie {
+    inset-inline-end: inherit;
+}
+
+.init-iie {
+    inset-inline-end: initial;
+}
+
+.u-iie {
+    inset-inline-end: unset;
+}
+
+.cg1c {
+    column-gap: 1cap;
+}
+
+.cg1rc {
+    column-gap: 1rcap;
+}
+
+.col-red {
+    color: #FF0000;
+}
+.in-cs {
+    color-scheme: inherit;
+}
+
+.init-cs {
+    color-scheme: initial;
+}
+
+.u-cs {
+    color-scheme: unset;
+}
+
+.in-ar {
+    aspect-ratio: inherit; 
+}
+
+.init-ar {
+    aspect-ratio: initial;
+}
+
+.u-ar {
+    aspect-ratio: unset;
+}
+
+.grd {
+    display: grid;
+}
+
+.igrd {
+    display: inline grid;  
+}
+
+.p1 {
+    padding: 1px;
+}
+
+.p1r {
+    padding: 1rem;
+}
+
+.m1 {
+    margin: 1px;
+}
+
+.m1r {
+    margin: 1rem;
+}
+
+.in-mblk {
+    margin-block: inherit;
+}
+
+.init-mblk {
+    margin-block: initial;
+}
+
+.u-mblk {
+    margin-block: unset;
+}
+
+.in-msk {
+    mask: inherit;
+}
+
+.init-msk {
+    mask: initial;
+}
+
+.u-msk {
+    mask: unset;
+}
+
+.blk {
+    display: block;
+}
+
+.iblk {
+    display: inline-block;
+}
+
+.sr-at {
+    shape-rendering: auto;
+}
+
+.sr-ce {
+    shape-rendering: crispEdges;
+}
+
+.sr-gp {
+    shape-rendering: geometricPrecision;
+}
+
+.sr-os {
+    shape-rendering: optimizeSpeed;
+}
+
+.in-sr {
+    shape-rendering: inherit;
+}
+
+.init-sr {
+    shape-rendering: initial;
+}
+
+.u-sr {
+    shape-rendering: unset;
+}
+
+.in-sit {
+    shape-image-threshold: inherit;
+}
+
+.init-sit {
+    shape-image-threshold: initial;
+}
+
+.u-sit {
+    shape-image-threshold: unset;
+}
+
+.fd-at {
+    font-display: auto;
+}
+
+.fd-blk {
+    font-display: block;
+}
+
+.fd-flbck {
+    font-display: fallback;
+}
+
+.fd-opt {
+    font-display: optional;
+}
+
+.fd-sw {
+    font-display: swap;
+}
+
+.in-fd {
+    font-display: inherit;
+}
+
+.init-fd {
+    font-display: initial;
+}
+
+.u-fd {
+    font-display: unset;
+}
+
+.fk-at {
+    font-kerning: auto;
+}
+
+.fk-no {
+    font-kerning: none;
+}
+
+.fk-nor {
+    font-kerning: normal;
+}
+
+.in-fk {
+    font-kerning: inherit;
+}
+
+.init-fk {
+    font-kerning: initial;
+}
+
+.u-fk {
+    font-kerning: unset;
+}
+
+.fs-italic {
+    font-style: italic;
+}
+
+.fs-nor {
+    font-style: normal
+}
+
+.fs-obli {
+    font-style: oblique;
+}
+
+.in-fs {
+    font-style: inherit;
+}
+
+.init-fs {
+    font-style: initial;
+}
+
+.u-fs {
+    font-style: unset;
+}
+
+.pb1 {
+    padding-bottom: 1px;
+}
+
+.pb1r {
+    padding-bottom: 1rem;
+}
+
+.pb2 {
+    padding-bottom: 2px;
+}
+
+.pb2r {
+    padding-bottom: 2rem;
+}
+
+.cntnt {
+    display: contents;
+}
+
+.cntntico {
+    display: contents;
+    content: icon;
+}
+
+.cntntico-manual {
+    content: icon;
+}
+
+.fvl-cl {
+    font-variant-ligatures: common-ligatures;
+}
+
+.fvl-cntxt {
+    font-variant-ligatures: contextual;
+}
+
+.fvl-dl {
+    font-variant-ligatures: discretionary-ligatures;
+}
+
+.fvl-hl {
+    font-variant-ligatures: historical-ligatures;
+}
+
+.fvl-ncl {
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.fvl-ncntxt {
+    font-variant-ligatures: no-contextual;
+}
+
+.fvl-ndl {
+    font-variant-ligatures: no-discretionary-ligatures;
+}
+
+.fvl-nhl {
+    font-variant-ligatures: no-historical-ligatures;
+}
+
+.fvl-no {
+    font-variant-ligatures: none;
+}
+
+.fvl-nor {
+    font-variant-ligatures: normal;
+}
+
+.in-fvl {
+    font-variant-ligatures: inherit;
+}
+
+.init-fvl {
+    font-variant-ligatures: initial;
+}
+
+.u-fvl {
+    font-variant-ligatures: unset;
+}
+
+.in-tuo {
+    text-underline-offset: inherit; 
+}
+
+.init-tuo {
+    text-underline-offset: initial;
+}
+
+.u-tuo {
+    text-underline-offset: unset;
+}
+
+.in-ord {
+    order: inherit;
+}
+
+.init-ord {
+    order: initial;
+}
+
+.u-ord {
+    order: unset;
+}
+
+.atf-eoc {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.atf-eoq {
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.aic-inf {
+    animation-iteration-count: infinite;
+}
+
+.in-aic {
+    animation-iteration-count: inherit;
+}
+
+.init-aic {
+    animation-iteration-count: initial;
+}
+
+.u-aic {
+    animation-iteration-count: unset;
+}
+
+.biew1c {
+    border-inline-end-width: 1cap;
+}
+
+.biew1rc {
+    border-inline-end-width: 1rcap;
+}
+
+.bisw1c {
+    border-inline-start-width: 1cap;
+}
+
+.bisw1rc {
+    border-inline-start-width: 1rcap;
+}
+
+.flwrt {
+    display: flow-root;
+}
+
+.iflwrt {
+    display: inline flow-root;
+}
+
+.inle {
+    display: inline;
+}
+
+.style-link {
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+    color: lightblue;
+}
+
+.style-link:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.style-link:focus {
+    text-decoration: underline;
+    text-decoration-color: purple;
+    color: purple;
+}
+
+.style-link:visited {
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    color: palevioletred;
+}
+
+.style-link:active {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+
+.style-link-inv {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.style-link-inv:hover {
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+    color: lightblue;
+}
+
+.style-link-inv:focus {
+    text-decoration: underline;
+    text-decoration-color: purple;
+    color: purple;
+}
+
+.style-link-inv:visited {
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    color: palevioletred;
+}
+
+.style-link-inv:active {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+.in-as {
+    additive-symbols: inherit;
+}
+
+.init-as {
+    additive-symbols: initial;
+}
+
+.u-as {
+    additive-symbols: unset;
+}
+
+button {
+    border-radius: 12px;
+    border: 2px solid black;
+    color: #555;
+    padding: 8px 16px;
+    background-color: white;
+    transition: 0.1s;
+}
+
+button:hover {
+    color:  grey;
+    cursor: pointer;
+}
+
+.p1c {
+    padding: 1cap;
+}
+
+.p1rc {
+    padding: 1rcap;
+}
+
+figure figcaption {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.style-list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.p2 {
+    padding: 2px;
+}
+
+.p2r {
+    padding: 2rem;
+}
+
+.p2c {
+    padding: 2cap;
+}
+
+.p2rc {
+    padding: 2rcap;
+}
+
+.m-step {
+    margin: 2px 4px 8px 16px;
+}
+
+.m-step-r {
+    margin: 2px 16px 8px 4px;
+}
+
+.flxb-a {
+    display: flex;
+    flex-basis: auto;
+}
+
+.flxb-a-manual {
+    flex-basis: auto;
+}
+
+.flxb-cntnt {
+    display: flex;
+    flex-basis: content;
+}
+
+.flxb-cntnt-manual {
+    flex-basis: content;
+}
+
+.iflxb-a {
+    display: inline-flex;
+    flex-basis: auto;
+}
+
+.iflxb-cntnt {
+    display: inline-flex;
+    flex-basis: content;
+}
+
+.col-subatomic {
+    color: black;
+    -webkit-text-stroke: 1px purple;
+    paint-order: fill stroke;
+}
+
+.col-rebecca {
+    color: rebeccapurple;
+}
+
+.h1-mi {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.h1-ma {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.h1-mir {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.h1-mar {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.ff-system {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+.ff-mono {
+    font-family: monospace, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, arial, Helvetica, sans-serif;
+}
+
+.p8 {
+    padding: 8px;
+}
+
+.p8r {
+    padding: 8rem;
+}
+
+.p8c {
+    padding: 8cap;
+}
+
+.p8rc {
+    padding: 8rcap;
+}
+
+.p4 {
+    padding: 4px;
+}
+
+.p4r {
+    padding: 4rem;
+}
+
+.p4c {
+    padding: 4cap;
+}
+
+.p4rc {
+    padding: 4rcap;
+}
+
+.col-touhou {
+    color: red;
+    -webkit-text-stroke: 1px darkred;
+    paint-order: fill stroke;
+}
+
+.po-fs {
+    paint-order: fill stroke;
+}
+
+.po-f {
+    paint-order: fill;
+}
+
+.po-s {
+    paint-order: stroke;
+}
+
+.col-whirlwind {
+    color: lightblue;
+    -webkit-text-stroke: lightskyblue;
+    paint-order: fill stroke;
+}
+
+.col-nextgen {
+    color: lightblue;
+    -webkit-text-stroke: blue;
+    paint-order: fill stroke;
+}
+/*$vite$:1*/
