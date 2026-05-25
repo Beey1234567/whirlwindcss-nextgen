@@ -805,3 +805,11 @@ h1 {
     -webkit-text-stroke: blue;
     paint-order: fill stroke;
 }
+
+.br12 {
+    border-radius: 12px;
+}
+
+.br12r {
+    border-radius: 12rem;
+}
