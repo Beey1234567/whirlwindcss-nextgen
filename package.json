@@ -24,7 +24,8 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "minify": "npx clean-css-cli -o classes.min.css classes.css"
     },
     "main": "./classes.css",
     "style": "./classes.css",
