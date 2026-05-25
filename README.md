@@ -56,6 +56,10 @@ This bug has no fix whirlwindcss-nextgen was not meant for preact but in a futur
 
 This is to reduce bloat for example iflxb-cntnt doesnt have manual because the same way to get manual inline-flex basis content is by using `iflx flxb-cntnt-manual`.
 
+### My TS is erroring because of no module
+
+We might fix this in a later version for now just use @ts-ignore to silence.
+
 ## Other
 
 Read the docs if available at: whirlwindcss-nextgen.surge.sh (Another way to find all the classes is to look in classes.json)
