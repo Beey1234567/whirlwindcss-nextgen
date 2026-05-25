@@ -32,3 +32,11 @@ added classes for border-radius:
 
 - br12
 - br12r
+
+## Version 2.0.0-circus-A
+
+Added new background colors:
+
+- bgc-yellow
+- bgc-red
+- bgc-green
