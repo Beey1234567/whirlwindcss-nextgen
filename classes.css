@@ -813,3 +813,15 @@ h1 {
 .br12r {
     border-radius: 12rem;
 }
+
+.bgc-yellow {
+    background-color: yellow;
+}
+
+.bgc-red {
+    background-color: red;
+}
+
+.bgc-green {
+    background-color: green;
+}
