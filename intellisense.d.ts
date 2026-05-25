@@ -50,6 +50,7 @@ export type WhirlwindClasses =
   | "iflxb-a" | "iflxb-cntnt"
   | "h1-mi" | "h1-ma" | "h1-mir" | "h1-mar"
   | "po-fs" | "po-f" | "po-s"
+  | "br12" | "br12r";
 
 declare module "react" {
   interface HTMLAttributes<T> {
