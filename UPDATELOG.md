@@ -25,3 +25,10 @@ README updates
 ## Version 1.0.5
 
 Fixed A bug with TS complaining about no module
+
+## Version 1.1.0
+
+added classes for border-radius:
+
+- br12
+- br12r
